@@ -1,0 +1,99 @@
+/* Colors and Fonts */
+body {
+	background-color: rgb(227,238,234);
+	color: rgb(66,93,98);
+	font-family: 'Lora', serif;
+	font-weight: 100;
+	font-size: 17px;
+}
+
+h1 {
+	color: rgb(47, 93, 98);
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+}
+
+h2 {
+	color: rgb(47, 93, 98);
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(66,93,98);
+	font-weight: 600;
+}
+
+a:hover {
+	color: rgb(175,195,187);
+}
+
+
+/* Custom designs with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px; 
+	box-shadow: 0px 10px 30px rgba(109,138,126,0.4);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50px;
+}
+
+.btn-green {
+	background-color: rgb(167, 196, 188);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-green:hover {
+	background-color: rgb(109,138,126);
+	color: white;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+	color: rgb(167, 196, 188);
+}
+
+.list-horizontal i:hover {
+	font-size: 50px;
+	color: rgb(109,138,126);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
